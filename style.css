@@ -1,0 +1,68 @@
+/* Base styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+/* Container for main content */
+.container {
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 20px; /* Adjust as needed */
+    margin: 0;
+}
+
+/* Main content area */
+main {
+    margin-top: 20px;
+}
+
+/* Stock quote section */
+#stock-quotes {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#stock-quotes h2 {
+    font-size: 18px; /* Adjust as needed */
+    margin-bottom: 5px;
+}
+
+/* Learn to invest section */
+#learn-to-invest {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive styles (tablets and desktops) */
+@media (min-width: 768px) {
+    .container {
+        max-width: 700px;
+    }
+    header {
+        padding: 20px;
+    }
+}
+
+/* Responsive styles (phones) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 18px; /* Adjust as needed */
+    }
+    #stock-quotes, #learn-to-invest {
+        padding: 15px;
+    }
+}
